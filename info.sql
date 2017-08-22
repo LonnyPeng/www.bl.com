@@ -31,3 +31,5 @@ CREATE TABLE `t_member` (
 ALTER TABLE `t_member`
   ADD PRIMARY KEY (`uid`),
   ADD KEY `status` (`status`);
+
+  INSERT INTO `t_member` VALUES ('1', 'admin', 'b204235e942be13c873ba5351cd6fcaa', 'admin', 'admin@admin.com', null, '0', '0000-00-00', '', '0', null, '0', '0', '0', '0', 'jDkSmJ', '6', '0', '1503368960', '2130706433', '1503398504', '1');
